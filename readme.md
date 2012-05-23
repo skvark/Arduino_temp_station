@@ -5,7 +5,7 @@ This is a simple temperature monitoring station, based on Arduino and [DS18B20](
 
 All the code isn't yet here, I'm working on it...    
 
-- If you don't own a server, you will need Arduino, ethernet shield and a webhotel.
+- If you don't own a server, you will need Arduino, ethernet shield and a webhotel. [DEMO] (http://skvark.antimaterial.fi/saa/)
 - If you own a server, all you need is Arduino and the code in python folder.
 
 For web interface, see the web folder. It should be used, if you plan to use ethernet shield version.     
