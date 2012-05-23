@@ -83,8 +83,8 @@ void loop(void) {
 
 	delay(750);				// let's give some time for the sensor to do conversion
 
-	ds.reset();	// reset
-	ds.select(addr);    	// select address
+	ds.reset();				// reset
+	ds.select(addr);		// select address
 	ds.write(0xBE);			// Read scratchpad
 
 	for ( i = 0; i < 9; i++) {
