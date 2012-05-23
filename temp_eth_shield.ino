@@ -81,9 +81,9 @@ void loop(void) {
 	ds.select(addr);
 	ds.write(0x44,1);		// start conversion, with parasite power on at the end
 
-	delay(750);				// let's give some time for the sensor to do conversion
+	delay(750);			// let's give some time for the sensor to do conversion
 
-	ds.reset();				// reset
+	ds.reset();			// reset
 	ds.select(addr);		// select address
 	ds.write(0xBE);			// Read scratchpad
 
@@ -100,7 +100,7 @@ void loop(void) {
 
 		reading = (reading ^ 0xffff) + 1; 
 		// two's complement 
-		// (bitwise exclusive or + 1
+		// bitwise exclusive or + 1
 		// or in other terms, compute Treading's bitwise negation and add 1
 	}
 
