@@ -16,4 +16,4 @@ For web interface, see the web folder. It should be used, if you plan to use eth
 More coming soon...     
 
 License: [MIT](http://github.com/skvark/Arduino_temp_station/blob/master/licence.txt)     
-author: Olli-Pekka Heinisuo    
+Author: Olli-Pekka Heinisuo    
